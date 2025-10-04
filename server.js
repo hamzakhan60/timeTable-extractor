@@ -26,13 +26,11 @@ app.use(cors());
 app.use(express.json());
 
 const upload = multer({
-  dest: 'uploads/',
+  dest: '/tmp',
   limits: { fileSize: 10 * 1024 * 1024 }
 });
 
-if (!fs.existsSync('uploads')) {
-  fs.mkdirSync('uploads');
-}
+
 
 // --- Routes ---
 app.get('/api/health', (req, res) => {
