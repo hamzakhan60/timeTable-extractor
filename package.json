@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "canvas": "^3.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10",
+    "pdf-table-extractor": "^1.0.3",
+    "pdfjs-dist": "^5.4.149"
+  }
+}
